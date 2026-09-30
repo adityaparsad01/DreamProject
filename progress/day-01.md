@@ -1,27 +1,47 @@
-# Day 1 — Java Fundamentals
+# Day 1 — Java + DSA Fundamentals
 
 **Date:** 2026-09-30  
-**Focus:** Java basics before DSA
+**Status:** Completed
 
-## Topics
-- [ ] Java program structure
-- [ ] `main()` method
-- [ ] Variables and data types
-- [ ] Operators
-- [ ] `if/else`
-- [ ] Loops
-- [ ] Basic input/output
+## What we covered
 
-## Practice
-1. Print your name.
-2. Store two integers and print their sum.
-3. Check whether a number is even or odd.
-4. Print numbers from 1 to 10.
-5. Find the largest of two numbers.
+- Java variables and basic data types
+- `int` stores whole-number/integer values
+- Variable assignment stores values for later use
+- `System.out.println()` prints a value
+- `+` performs numeric addition
+- Java `for` loop structure and repetition
+- Difference between JavaScript and Java loop syntax
+- DSA = Data Structures and Algorithms
+- Why DSA matters: problem solving, efficient code, and technical interviews
+
+## Key understanding
+
+```java
+int a = 10;
+int b = 20;
+
+System.out.println(a + b);
+```
+
+Output:
+
+```
+30
+```
+
+Java loop pattern:
+
+```java
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
+
+## Learning note
+
+The learner already has some Java basics, so future sessions will use **quick revision + faster movement into DSA**, rather than spending too much time on beginner syntax.
 
 ## Next
-After these basics, move to arrays and start the first DSA problems.
 
-## Progress
-Started: 2026-09-30
-Status: In progress
+**Day 2:** Arrays + time complexity basics, followed by the first DSA problems.
